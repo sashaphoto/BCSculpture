@@ -5,35 +5,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
 import Seo from "../utility/seo"
 
-const IndexPage: React.FC = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hello all</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/mascot.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      This boilerplate differs from the default in a number of ways:
-    </p>
-    <ul>
-      <li>Fully TypeScript (as much as possible)</li>
-      <li>SCSS from the start</li>
-      <li>Dark theme via SCSS variables</li>
-      <li>Automatic color palettes</li>
-      <li>Google Analytics & GitHub Pages plugins builtin</li>
-    </ul>
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link className={'Magic'} to="/about-styling/">About Styling</Link>
-    </p>
-  </Layout>
-)
+const IndexPage: React.FC = () => {
+  return (
+<iframe style={{width: "100vw", height: "100vh"}} src="https://thebigsasha.github.io/bcsculpture/" title="BC Sculpture"></iframe>
+)}
 
 export default IndexPage
